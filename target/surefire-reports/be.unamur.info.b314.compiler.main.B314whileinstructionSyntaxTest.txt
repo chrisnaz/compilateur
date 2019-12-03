@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: be.unamur.info.b314.compiler.main.B314whileinstructionSyntaxTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 sec

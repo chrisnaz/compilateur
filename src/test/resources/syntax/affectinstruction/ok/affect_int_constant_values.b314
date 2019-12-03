@@ -1,0 +1,81 @@
+
+declare and retain
+    b as boolean;
+    i as integer;
+    s as square;
+    z as integer;
+    j as integer[10];
+    facto as function(x as integer):integer
+        	do
+        		if x < 0 or x = 0 then
+        			set facto to 1
+        		else
+        			set facto to x * facto(x - 1)
+        		done
+        		done
+     facto2 as function(x as integer):boolean
+              do
+               if x < 0 or x = 0 then
+             set facto2 to false
+                      else
+              			set facto2 to true
+                  		done
+           	done
+facto3 as function(x as integer):square
+              do
+               if x < 0 or x = 0 then
+             set facto3 to map
+                      else
+              			set facto3 to radio
+                  		done
+           	done
+
+when your turn
+when true do
+            		next move north
+            	done
+by default
+    do
+    while i < 10 do
+                set i to i + 1
+    	done
+    	if true and false or b then skip else skip done
+    	compute facto (2)
+    	compute facto2(2) and true
+    	compute facto3(3) = map
+    	compute facto(2)= facto(3)
+    	compute i=z
+    	compute i= facto(2)
+    	set j[2] to 10
+    	compute (false)
+    	compute ennemi is north
+    	compute map = radio
+    	compute false = true
+    	compute graal is north
+    	compute facto(2)=i
+    	compute facto3(2)=radio
+    	compute s = radio
+    	compute true
+    	compute false
+    	compute true or false
+    	compute true and false
+    	compute not true
+    	compute nearby [2,3]
+    	compute 2<6
+        set i to 0
+        set i to 42
+        set i to -34
+        set i to latitude
+        set i to longitude
+        set i to grid size
+        set i to life
+        set i to map count
+        set i to radio count
+        set i to ammo count
+        set i to fruits count
+        set i to soda count
+        compute 2 + i
+        compute false and b
+        compute s
+
+    done

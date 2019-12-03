@@ -1,0 +1,23 @@
+/* My comments */ 
+declare and retain
+   o as integer;
+    b as boolean;
+    i as integer[42];
+    i2 as integer[42, 42];
+    s as square;
+     fct1 as function(x as integer):integer
+        	do
+        		set fct1 to 45
+        	done
+when your turn
+by default
+    do 
+        set i[0] to 0 + 42 * 1
+        set i[0] to i[1]
+        set i[0] to o
+        set i[fct1(2)] to fct1(2)
+        set i[i[0] + 1] to 42 + latitude % life + i[i[0] + 1]
+        set i[i[0] + 1] to (-34 - 2) * grid size - i[i[0] + 1] 
+        set i2[i[0] + 1, i2[0,0]] to map count - radio count + ammo count % fruits count - soda count
+    done
+

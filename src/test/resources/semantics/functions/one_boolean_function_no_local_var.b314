@@ -1,0 +1,26 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+v as boolean;
+    fct1 as function():boolean
+    	do
+    		set fct1 to true 
+    	done
+    fct2 as function():boolean
+        	do
+        		set fct2 to true
+        	done
+when your turn 
+by default 
+    do 
+	    if not fct1() and fct2()=fct1() and fct2()=v and v= fct2()  and fct2()=(true) then
+   			next move west
+   		done
+	   	next do nothing
+    done
